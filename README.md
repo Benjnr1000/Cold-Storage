@@ -50,22 +50,4 @@ README.md # This file
      "knitr", "rmarkdown", "markdown"
    ))
 
-🚀 Running the Analysis
-Knit the R Markdown
-Open reports/Cold-Storage-Project.Rmd in RStudio and click Knit to generate PDF/HTML.
-
-Or run the script
-```r
-source("scripts/analysis.R")
-```
-
-This will:
-
-- Load and preprocess the two datasets.
-- Compute descriptive statistics and seasonal means.
-- Plot histograms and boxplots for population vs. sample.
-- Calculate probabilities of temperature breaches.
-- Compute maintenance penalty.
-- Perform one-way ANOVA with Tukey post-hoc tests.
-- Conduct Z-test and one-sample t-test for Mar 2018.
 
