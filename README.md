@@ -24,7 +24,7 @@ Key questions addressed:
 ---
 
 ## 🗂️ Repository Structure
-
+```bash
 📁 data/
 ├─ Cold_Storage_Temp_Data.csv # Full-year population data
 └─ Cold_Storage_Mar2018.csv # Feb–Mar 2018 sample data
@@ -37,7 +37,7 @@ Key questions addressed:
 └─ analysis.R # R script pulled from Rmd (via purl)
 
 README.md # This file
-
+```
 ---
 
 ## 🛠️ Setup & Dependencies
